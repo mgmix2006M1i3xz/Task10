@@ -20,35 +20,8 @@ d. Вывод результата.
 
 Блок-схема:
 
-[Овал] Начало
+<img width="1655" height="847" alt="image" src="https://github.com/user-attachments/assets/b80889e2-0079-4c18-8723-440bec8c3068" />
 
-[Параллелограмм] Ввод fig_choice
-
-[Ромб] fig_choice == 1 (Прямоугольник)?
-
-«Да» -> [Параллелограмм] Ввод act_choice
-
-[Ромб] act_choice == 1? -> [Прямоугольник] area = area_rectangle(a,b) -> [Параллелограмм] Вывод area
-
-[Ромб] act_choice == 2? -> [Прямоугольник] Вызов print_def_rectangle()
-
-[Ромб] act_choice == 3? -> [Прямоугольник] Вызов draw_rectangle(a,b,sym)
-
-«Нет» -> [Ромб] fig_choice == 2 (Круг)?
-
-«Да» -> [Параллелограмм] Ввод act_choice
-
-[Ромб] act_choice == 1? -> [Прямоугольник] area = area_round(r) -> [Параллелограмм] Вывод area
-
-[Ромб] act_choice == 2? -> [Прямоугольник] Вызов print_def_round()
-
-[Ромб] act_choice == 3? -> [Прямоугольник] Вызов draw_round(r, sym)
-
-«Нет» -> [Ромб] fig_choice == 3 (Сравнение)?
-
-«Да» -> [Прямоугольник] Ввод r1, r2 -> [Прямоугольник] diff = compare_round(r1, r2) -> [Параллелограмм] Вывод diff
-
-[Овал] Конец
 
 2. Реализация программы
 
